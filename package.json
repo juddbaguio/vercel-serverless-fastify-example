@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "vercel": "vercel dev"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vercel/node": "^1.11.1"
+    "@vercel/node": "^2.6.1",
+    "@types/node": "^18.0.0"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "fastify": "^3.18.1"
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "fastify-plugin": "^4.0.0",
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/sensible": "^5.0.0",
+    "fastify-cli": "^5.5.1"
   }
 }
